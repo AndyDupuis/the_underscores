@@ -11,3 +11,12 @@ body,
     width: 100%;
     margin: auto;
     }
+
+
+    body{
+        background: url('https://user-images.githubusercontent.com/54333765/156042745-9a6625c5-a7fa-46f5-98f2-e2b00065cc0a.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+      }
