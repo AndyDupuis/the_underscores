@@ -1,1 +1,13 @@
 /* Ready for some styles to be added! */
+
+h1 {text-align: center;}
+
+html,
+body,
+    #viewDiv {
+    padding: 0;
+
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    }
