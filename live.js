@@ -22,7 +22,8 @@ require(["esri/config",
     const view1 = new MapView({
         container: "viewDiv", //div element
         map: map1,
-        zoom: 3 //zoom level
+        zoom: 3, //zoom level
+        center: [-95.050671, 49.921828] // longitude, latitude
 
     });
 
