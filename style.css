@@ -27,10 +27,18 @@ body,
     .btn-primary {
         background-color: #c60063;
         border-color: #c60063;
+        margin-bottom: 1%;
     }
 
     header{
         margin-left: 10%;
         margin-right: 10%;
-        
+
+    }
+
+    .fixed-content {
+        margin-left: 87%;
+        position:fixed;
+        overflow-y:hidden;
+        overflow-x:hidden;
     }
