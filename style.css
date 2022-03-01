@@ -22,13 +22,24 @@ body,
       }
 
     .jumbotron {
-        background: rgba(16, 89, 223, 0.829);
+        margin-top: 20%;
+        margin-bottom: 20%;
+        padding: 10%;
+        background: rgba(0, 27, 72, 0.829);
+        color: #97CADB;
     }
-    .btn-primary {
-        background-color: #c60063;
-        border-color: #c60063;
-        margin-bottom: 1%;
+
+
+    .jumbotron .btn {
+        background-color: #97CADB;
+        padding: 2%;
     }
+
+    .jumbotron .btn:hover {
+        
+    }
+
+
 
     header{
         margin-left: 10%;
@@ -42,3 +53,30 @@ body,
         overflow-y:hidden;
         overflow-x:hidden;
     }
+
+    .navbar {
+        background-color: #97CADB;
+    }
+    
+    .dropdown-menu {
+        background-color: #97CADB;
+    }
+
+    .dropdown-item:hover {
+        background-color: #97CADB;
+    }
+
+    .navbar li{
+        padding: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .navbar a {
+        color: #001B48;
+    }
+
+    .navbar a:hover {
+        font-weight: bold;
+    }
+    
