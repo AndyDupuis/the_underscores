@@ -20,3 +20,17 @@ body,
         background-size: cover;
         -o-background-size: cover;
       }
+
+    .jumbotron {
+        background: rgba(16, 89, 223, 0.829);
+    }
+    .btn-primary {
+        background-color: #c60063;
+        border-color: #c60063;
+    }
+
+    header{
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
