@@ -73,13 +73,20 @@
     <div class="container">
         <div class="card border-0 shadow my-5">
             <div class="card-body p-5">
-                <h1 class="fw-light">Find out if you are in a high risk area</h1>
-                <p class="lead">High risk areas include floodplains, coastlines, and areas which have frequently flooded before.</p>
+                <h1 class="fw-light">What is a High Risk Area?</h1>
+                <p class="lead pb-4">
+                    Because there are several different causes of flooding, there are a variety of types of areas that can 
+                    be at a higher-than-average risk of experiencing a major flood event. 
+                </p>
+                <p class="lead pb-4">
+                    Most floods in Canada are caused by extreme precipitation in a short period of time, rapid melting of snowpacks when 
+                    the soil is still frozen, dam failure, and of course storm surges along the coast. Floodplains, or land areas near 
+                    rivers or bodies of water that are prone to flooding, as well as coastal areas, are the most at risk.
+                </p>
                 <div>
-                    <h1 class="fw-light">Map Showing High Risk Areas?</h1>
-                    <div style="height: 700px"></div>
-                    <div style="height: 700px"></div>
-                    <p class="lead mb-0">You've reached the end!</p>
+                    <h1 class="fw-light">Find out if you are in a High Risk Area</h1>
+                    <!--Slider/web map of a significant flood.-->
+                    <div id="viewDiv" style="height: 700px"></div>
                 </div>
             </div>
         </div>
@@ -92,6 +99,12 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
     <script src="app.js"></script>
+
+    <!--Javascript API links for slider/web map (id="viewDiv")-->
+    <link rel="stylesheet" href="https://js.arcgis.com/4.22/esri/themes/dark/main.css" />
+    <script src="https://js.arcgis.com/4.22/"></script>
+    <script src="swipe_function.js"></script>
+
 
 
 </body>
