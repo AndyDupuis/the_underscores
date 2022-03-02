@@ -1,138 +1,141 @@
-/* Ready for some styles to be added! */
 
-h1 {
-    text-align: center;
-    margin-bottom: 2%;
-    }
 
-h2 {
-    margin-bottom: 2%;
-}
+/* -------------------------------------------------------- */
+/* SHARED STYLES */
 
-html,
-body,
-    #viewDiv {
+html, body, #viewDiv {
     padding: 0;
-
     height: 100%;
     width: 100%;
     margin: auto;
-    }
+}
+
+body {
+    background: url('https://user-images.githubusercontent.com/54333765/156042745-9a6625c5-a7fa-46f5-98f2-e2b00065cc0a.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    margin-top: 10%;
+}
+
+/* Used to create two side-by-side pieces of content */
+.parent {
+    margin: 2%;
+    text-align: center;
+}
+.child {
+    display: inline-block;
+    border-radius: 25px;
+    padding: 3%;
+    vertical-align: middle;
+    height: 80%;
+    width: 45%;
+    background-color: white;
+    text-align: left;
+}
+
+/* -------------------------------------------------------- */
+/* SPECIFIC COMPONENT STYLES */
+
+/* Navbar on all pages */
+.navbar, .dropdown-menu, .dropdown-item:hover, .dropdown-item:after {
+    background-color: #97CADB;
+}
+.navbar li, .navbar-toggler{
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar a {
+    color: #001B48;
+}
+.navbar a:hover {
+    font-weight: bold;
+}
 
 
-    body{
-        background: url('https://user-images.githubusercontent.com/54333765/156042745-9a6625c5-a7fa-46f5-98f2-e2b00065cc0a.jpg') no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover;
-        -o-background-size: cover;
-      }
+/* Landing page Jumbotron (containing Our Mission) */
+.jumbotron {
+    margin: 10%;
+    padding: 5%;
+    background: rgba(0, 27, 72, 0.829);
+    color: #97CADB;
+}
+.jumbotron .btn, .jumbotron .btn:after {
+    background-color: #97CADB;
+    color: #001B48;
+    padding: 2%;
+}
+.jumbotron .btn:hover {
+    font-weight: bold;
+    padding: 2.5%;
+}
 
-    .jumbotron {
-        margin-top: 13%;
-        margin-bottom: 13%;
-        padding: 5%;
-        background: rgba(0, 27, 72, 0.829);
-        color: #97CADB;
-    }
+/* Demo section */
+#demo_img {
+    background: url('images/map_app_demo.jpg') no-repeat center;
+    background-size: contain;
+    height: 75vh;
+}
+#app_link {
+    text-align: center;
+}
+
+/* About Us section */
+.about_us_card {
+    margin: auto;
+    width: 80%;
+}
+#about_us {
+    margin: 15%;
+}
+
+/* Footer on all pages */
+#footer {
+    margin: 0px;
+    margin-top: 5%;
+    padding: 5%;
+    background-color: black;
+    height: 15%;
+    width: 100%;
+    text-align: center;
+}
+
+#footer p {
+    color: grey;
+}
 
 
-    .jumbotron .btn {
-        background-color: #97CADB;
-        padding: 2%;
-    }
+/* -------------------------------------------------------- */
 
-    header{
-        margin-left: 10%;
-        margin-right: 10%;
 
-    }
-
-    .fixed-content {
-        margin-left: 87%;
-        position:fixed;
-        overflow-y:hidden;
-        overflow-x:hidden;
-    }
-
-    .navbar {
-        background-color: #97CADB;
-    }
     
-    .dropdown-menu {
-        background-color: #97CADB;
-    }
-
-    .dropdown-item:hover {
-        background-color: #97CADB;
-    }
-
-    .navbar li{
-        padding: 10px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-
-    .navbar a {
-        color: #001B48;
-    }
-
-    .navbar a:hover {
-        font-weight: bold;
-    }
-
-    .container {
-        margin-top: 10%;
-    }
-
-    .parent {
-        margin: 2%;
-        text-align: center;
-    }
-
-    .child {
-        display: inline-block;
-        border-radius: 25px;
-        padding: 3%;
-        vertical-align: middle;
-        height: 80%;
-        width: 45%;
-        background-color: white;
-        text-align: left;
-    }
-
-    .about_us_card {
-        margin: auto;
-        width: 80%;
-    }
-
-    #about_us {
-        margin: 15%;
-    }
-
-    #demo_img {
-        background: url('images/map_app_demo.jpg') no-repeat center;
-        background-size: contain;
-        height: 75vh;
-    }
-
-    #footer {
-        margin: 0px;
-        margin-top: 5%;
-        padding: 5%;
-        background-color: black;
-        height: 15%;
-        width: 100%;
-        text-align: center;
-    }
-
-    #footer p {
-        color: grey;
-    }
     
-    .card-img-top {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
 
