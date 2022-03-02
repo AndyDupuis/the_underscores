@@ -116,3 +116,17 @@ body,
         height: 75vh;
     }
 
+    #footer {
+        margin: 0px;
+        margin-top: 5%;
+        padding: 5%;
+        background-color: black;
+        height: 15%;
+        width: 100%;
+        text-align: center;
+    }
+
+    #footer p {
+        color: grey;
+    }
+
