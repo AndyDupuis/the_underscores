@@ -22,9 +22,9 @@ body,
       }
 
     .jumbotron {
-        margin-top: 20%;
-        margin-bottom: 20%;
-        padding: 10%;
+        margin-top: 13%;
+        margin-bottom: 13%;
+        padding: 5%;
         background: rgba(0, 27, 72, 0.829);
         color: #97CADB;
     }
@@ -76,4 +76,29 @@ body,
 
     .container {
         margin-top: 10%;
+    }
+
+    .parent {
+        margin: 2%;
+        text-align: center;
+    }
+
+    .child {
+        display: inline-block;
+        border-radius: 25px;
+        padding: 3%;
+        vertical-align: middle;
+        height: 80%;
+        width: 45%;
+        background-color: white;
+        text-align: left;
+    }
+
+    .about_us_card {
+        margin: auto;
+        width: 50%;
+    }
+
+    #about_us {
+        margin: 15px;
     }
