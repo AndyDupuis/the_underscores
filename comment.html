@@ -1,5 +1,3 @@
-<?php include 'form-to-email.php';?>
-
 <!doctype html>
 
 <html lang="en">
@@ -71,7 +69,7 @@
 
     </nav>
 
-    <!-- Mission Statement Jumbotron -->
+    <!-- Contact Jumbotron -->
     <header class="jumbotron jumbotron-fluid" id="mission">
         <div class="container-fluid text-center">
             <h1 class="display-3">Contact</h1>
@@ -79,20 +77,17 @@
                 Please tell us what you think of our app, we would love to hear your feedback! What did we miss? What
                 could we do better next time?
             </p>
-            <form method="post" name=”EmailForm” action="form-to-email.php">
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Name</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        name="name" placeholder="Leave your name">
-                </div>
+            <!-- HTML form will open mail app to send message.-->
+            <form action="mailto:tomasmillakoch97@gmail.com" method="POST" enctype="multipart/form-data"
+                name="EmailForm">
+                <label for="exampleInputEmail1">Name</label>
+                <input type="text" class="form-control" name="Contact-Name" placeholder="Leave your name">
                 <br>
-                <div class="form-group">
-                    <label for="exampleInputMessage">Message</label>
-                    <textarea class="form-control" id="exampleInputMessage" name="message"
-                        placeholder="Leave your message"></textarea>
-                </div>
+                <label for="exampleInputMessage">Message</label>
+                <textarea class="form-control" id="exampleInputMessage" name="Contact-Message"
+                    placeholder="Leave your message"></textarea>
                 <br>
-                <button type="submit" class="btn btn-primary">Send</button>
+                <button type="submit" value="Submit" class="btn btn-primary">Send</button>
             </form>
         </div>
     </header>
