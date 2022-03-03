@@ -49,6 +49,13 @@ h1, h2 {
     text-align: center;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 
 /* -------------------------------------------------------- */
 /* SPECIFIC COMPONENT STYLES */
@@ -119,9 +126,24 @@ h1, h2 {
 #about_us {
     margin: 2%;
     background: rgba(0, 27, 72, 0.829);
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+#about_us h1 {
+    color: #97CADB;
 }
 .about_us_card {
     margin: auto;
+}
+
+/* Be Prepared Page */
+#prepare img {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+#prepare .child {
+    margin: 1%;
+    padding: 0;
 }
 
 /* Footer on all pages */
@@ -139,12 +161,7 @@ h1, h2 {
     color: grey;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
+
 
 
 /* -------------------------------------------------------- */
@@ -189,7 +206,7 @@ h1, h2 {
         width: 70%;
     }
     .card-body p, .card-body h1 {
-        font-size: 120%;
+        font-size: 130%;
     }
 
     /* Footer on all pages */
@@ -232,9 +249,22 @@ h1, h2 {
 
     /* About Us section */
     .about_us_card {
-        width: 70%;
+        width: 75%;
     }
 
+    /* Be Prepared Page */
+    #prepare .child_type_1 img {
+        height: 250px;
+    }
+    #prepare .child_type_2 img {
+        height: 300px;
+    }
+    #prepare .child {
+        width: 80%;
+        height: 80vh;
+    }
+
+    /* Shared component holding content on most pages (except main landing page) */
     .container {
         margin-top: 20%;
     }
@@ -243,6 +273,8 @@ h1, h2 {
     #footer p {
         font-size: 120%;
     }
+
+    
 
 }
 
@@ -282,6 +314,23 @@ h1, h2 {
         width: 80%;
     }
 
+    /* Be Prepared Page */
+    #prepare .child_type_1 img {
+        height: 250px;
+    }
+    #prepare .child_type_2 img {
+        height: 300px;
+    }
+    #prepare .child {
+        height: 80vh;
+    }
+    #prepare .child_type_1 {
+        width: 45%;
+    }
+    #prepare .child_type_2 {
+        width: 80%
+    }
+
 }
 
 /* Very large screen devices (>1200px width) */
@@ -312,7 +361,19 @@ h1, h2 {
 
     /* About Us section */
     .about_us_card {
-        width: 60%;
+        width: 70%;
+    }
+
+    /* Be Prepared Page */
+    #prepare .child_type_1 img {
+        height: 250px;
+    }
+    #prepare .child_type_2 img {
+        height: 250px;
+    }
+    #prepare .child {
+        width: 30%;
+        height: 80vh;
     }
 
 }
