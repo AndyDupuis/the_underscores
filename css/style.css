@@ -290,7 +290,7 @@ small {
     }
     #prepare .child {
         width: 80%;
-        height: 80vh;
+        height: 70vh;
     }
 
     /* Shared component holding content on most pages (except main landing page) */
@@ -351,7 +351,7 @@ small {
         height: 300px;
     }
     #prepare .child {
-        height: 80vh;
+        height: 65vh;
     }
     #prepare .child_type_1 {
         width: 45%;
@@ -402,7 +402,7 @@ small {
     }
     #prepare .child {
         width: 30%;
-        height: 80vh;
+        height: 60vh;
     }
 
 }
