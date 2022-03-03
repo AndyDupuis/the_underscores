@@ -12,7 +12,7 @@ html, body, #viewDiv {
 }
 
 body {
-    background: url('images/background.jpg') no-repeat center center fixed;
+    background: url('img/background.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -118,7 +118,7 @@ h1, h2 {
     margin: 2%;
 }
 #demo_img {
-    background: url('images/map_app_demo.jpg') no-repeat center;
+    background: url('img/map_app_demo.jpg') no-repeat center;
     background-size: contain;
 }
 
