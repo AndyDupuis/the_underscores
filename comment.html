@@ -1,3 +1,5 @@
+<?php include 'form-to-email.php';?>
+
 <!doctype html>
 
 <html lang="en">
@@ -6,12 +8,13 @@
 
     <meta charset="utf-8">
 
-    <title>High Risk Areas</title>
+    <title>Flooding and Precipitation</title>
     <meta name="description" content="ECCE App Challenge 2022 - The Underscores">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
 
 </head>
 
@@ -68,39 +71,36 @@
 
     </nav>
 
-
-    <!-- Page Content -->
-    <div class="container">
-        <div class="card border-0 shadow my-5">
-            <div class="card-body p-5">
-                <h1 class="fw-light">What is a High Risk Area?</h1>
-                <p class="lead pb-4">
-                    Because there are several different causes of flooding, there are a variety of types of areas that
-                    can
-                    be at a higher-than-average risk of experiencing a major flood event.
-                </p>
-                <p class="lead pb-4">
-                    Most floods in Canada are caused by extreme precipitation in a short period of time, rapid melting
-                    of snowpacks when
-                    the soil is still frozen, dam failure, and of course storm surges along the coast. Floodplains, or
-                    land areas near
-                    rivers or bodies of water that are prone to flooding, as well as coastal areas, are the most at
-                    risk.
-                </p>
-                <div>
-                    <h1 class="fw-light">Find out if you are in a High Risk Area</h1>
-                    <!--Slider/web map of a significant flood.-->
-                    <div id="viewDiv" style="height: 700px"></div>
+    <!-- Mission Statement Jumbotron -->
+    <header class="jumbotron jumbotron-fluid" id="mission">
+        <div class="container-fluid text-center">
+            <h1 class="display-3">Contact</h1>
+            <p class="lead pb-4">
+                Please tell us what you think of our app, we would love to hear your feedback! What did we miss? What
+                could we do better next time?
+            </p>
+            <form method="post" name=”EmailForm” action="form-to-email.php">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Name</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        name="name" placeholder="Leave your name">
                 </div>
-            </div>
+                <br>
+                <div class="form-group">
+                    <label for="exampleInputMessage">Message</label>
+                    <textarea class="form-control" id="exampleInputMessage" name="message"
+                        placeholder="Leave your message"></textarea>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
         </div>
-    </div>
+    </header>
+
 
     <div id="footer">
         <p>ECCE App Challenge 2022</p>
     </div>
-
-
 
 
     <!--Bootstrap Bundle-->
@@ -109,11 +109,11 @@
         crossorigin="anonymous"></script>
     <script src="app.js"></script>
 
-    <!--Javascript API links for slider/web map (id="viewDiv")-->
+    <!--Slider/web map of a significant flood.-->
+    <!--Javascript API links-->
     <link rel="stylesheet" href="https://js.arcgis.com/4.22/esri/themes/dark/main.css" />
     <script src="https://js.arcgis.com/4.22/"></script>
-    <script src="swipe_function.js"></script>
-
+    <script src="live.js"></script>
 
 
 </body>
