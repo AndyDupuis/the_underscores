@@ -1,4 +1,4 @@
-
+/* CSS Stylesheet referenced in all HTML files in this project */
 
 /* -------------------------------------------------------- */
 /* SHARED STYLES */
@@ -33,22 +33,6 @@ h1, h2 {
     margin-top: 10%;
 }
 
-/* Used to create two side-by-side pieces of content */
-.parent {
-    margin: 2%;
-    text-align: center;
-}
-.child {
-    display: inline-block;
-    border-radius: 25px;
-    padding: 3%;
-    vertical-align: middle;
-    height: 80%;
-    width: 45%;
-    background-color: white;
-    text-align: left;
-}
-
 /* -------------------------------------------------------- */
 /* SPECIFIC COMPONENT STYLES */
 
@@ -68,13 +52,13 @@ h1, h2 {
     font-weight: bold;
 }
 
-
 /* Landing page Jumbotron (containing Our Mission) */
 .jumbotron {
-    margin: 10%;
-    padding: 5%;
     background: rgba(0, 27, 72, 0.829);
     color: #97CADB;
+    margin: 10%;
+    padding: 5%;
+
 }
 .jumbotron .btn, .jumbotron .btn:after {
     background-color: #97CADB;
@@ -87,22 +71,34 @@ h1, h2 {
 }
 
 /* Demo section */
+.parent {
+    text-align: center;
+    margin: 2%;
+}
+.child {
+    display: inline-block;
+    border-radius: 25px;
+    vertical-align: middle;
+    background-color: white;
+    text-align: left;
+    padding: 3%;
+    margin: 2%;
+}
 #demo_img {
     background: url('images/map_app_demo.jpg') no-repeat center;
     background-size: contain;
-    height: 75vh;
 }
 #app_link {
     text-align: center;
 }
 
 /* About Us section */
+#about_us {
+    margin: 2%;
+    background: rgba(0, 27, 72, 0.829);
+}
 .about_us_card {
     margin: auto;
-    width: 80%;
-}
-#about_us {
-    margin: 15%;
 }
 
 /* Footer on all pages */
@@ -122,10 +118,150 @@ h1, h2 {
 
 
 /* -------------------------------------------------------- */
+/* SCREEN SIZE SPECIFIC */
+
+/* Extremely small screen devices (600px width and below) */
+@media screen and (max-width: 600px) {
+
+    /* Landing page Jumbotron (containing Our Mission) */
+    .jumbotron {
+        margin-top: 30%;
+        margin-bottom: 10%;
+    }
+    .jumbotron p, .jumbotron h1 {
+        font-size: 80%;
+    }
+
+    /* Demo section */
+    .parent {
+        display: block;
+    }
+    #demo p, #demo h1 {
+        padding: 3%;
+        font-size: 100%;
+    }
+    #demo_img {
+        display: none;
+    }
+
+    .container {
+        margin-top: 25%;
+    }
+
+    .card-body p, .card-body h1 {
+        font-size: 120%;
+    }
+
+    /* Footer on all pages */
+    #footer p {
+        font-size: 150%;
+    }
+
+}
 
 
+/* Small screen devices (600px width and above) */
+@media screen and (min-width: 600px) and (max-width: 899px) {
+
+    /* Landing page Jumbotron (containing Our Mission) */
+    .jumbotron {
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+    .jumbotron p, .jumbotron h1 {
+        font-size: 120%;
+    }
+
+    /* Demo section */
+    .parent {
+        display: block;
+    }
+    #demo p, #demo h1 {
+        font-size: 95%;
+    }
+    #demo_img {
+        height: 40vh;
+        width: 60%;
+    }
+
+    /* About Us section */
+    .about_us_card {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .container {
+        margin-top: 20%;
+    }
+
+    /* Footer on all pages */
+    #footer p {
+        font-size: 120%;
+    }
+
+
+}
+
+
+/* Medium to large screen devices (900px width and above) */
+@media screen and (min-width: 900px) {
+
+    /* Landing page Jumbotron (containing Our Mission) */
+    .jumbotron {
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+    .jumbotron p, .jumbotron h1 {
+        font-size: 110%;
+    }
+
+    /* Demo section */
+    .child {
+        height: 80%;
+        width: 45%;
+    }
+    #demo p, #demo h1 {
+        font-size: 95%;
+    }
+    #demo_img {
+        height: 60vh;
+    }
+
+    /* About Us section */
+    .about_us_card {
+        width: 95%;
+    }
+
+}
+
+/* Very large screen devices (>1200px width) */
+@media screen and (min-width: 1200px) {
+
+    /* Landing page Jumbotron (containing Our Mission) */
+    .jumbotron p, .jumbotron h1 {
+        font-size: 120%;
+    }
+
+    /* Demo section */
+    #demo p, #demo h1 {
+        font-size: 120%;
+    }
+    #demo_img {
+        height: 80vh;
+    }
+
+    /* About Us section */
+    .about_us_card {
+        width: 80%;
+    }
+
+
+}
     
     
+
+
+
 
     
 
