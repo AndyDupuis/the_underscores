@@ -34,9 +34,6 @@ require(["esri/config",
 
     view1.ui.add(new Expand({ view1, content: legend }), "top-left");
 
-    const clearBtn = document.getElementById("clearFilter");
-    view1.ui.add(clearBtn, "bottom-right");
-
     // Specify the widget while adding to the view's UI
     const bookmarks = new Bookmarks({
         view: view1,
@@ -80,11 +77,7 @@ require(["esri/config",
                 excludedEffect: "grayscale(100%) opacity(30%)"
             };
         });
-        clearBtn.addEventListener("click", () => {
-            layer.featureEffect = null;
-        });
     });
-
-
-
 });
+
+
