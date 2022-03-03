@@ -93,11 +93,9 @@ h1, h2 {
     background-color: #97CADB;
     color: #001B48;
     padding: 2%;
-    border: none;
+    border: 1px solid #001B48;
 }
 .jumbotron .btn:hover {
-    font-weight: bold;
-    padding: 2.5%;
     background-color: #001B48;
     color: #97CADB;
     border: 1px solid #97CADB;
