@@ -140,6 +140,9 @@ h1, h2 {
 #about_us h1 {
     color: #97CADB;
 }
+#about_us h5 {
+    font-weight: bold;
+}
 .about_us_card {
     margin: auto;
 }
@@ -152,6 +155,13 @@ h1, h2 {
 #prepare .child {
     margin: 1%;
     padding: 0;
+}
+
+/* Contact Form */
+#contact label {
+    font-size: 130%;
+    font-weight: bold;
+    padding: 1%;
 }
 
 /* Main Web Map Application (app.html) */
@@ -407,20 +417,3 @@ small {
 
 }
     
-    
-
-
-
-
-    
-
-    
-
-    
-
-    
-
-    
-    
-    
-
