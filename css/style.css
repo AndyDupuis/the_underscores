@@ -235,7 +235,7 @@ small {
         width: 70%;
     }
     .card-body p, .card-body h1 {
-        font-size: 130%;
+        font-size: 100%;
     }
 
     /* Footer on all pages */
