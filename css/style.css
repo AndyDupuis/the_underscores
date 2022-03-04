@@ -130,7 +130,7 @@ h1, h2 {
 }
 
 /* QR Code Section (on index.html and app.html) */
-#qr_code_main {
+.qr_code {
     background-color: white;
     border-radius: 25px;
     margin: 5%;
@@ -138,8 +138,11 @@ h1, h2 {
     margin-right: 15%;
     padding: 5%;
 }
-#qr_code_main img {
+.qr_code img {
     width: 25%;
+}
+#main_app .qr_code {
+    color: #001B48;
 }
 
 #main_app img {
@@ -272,6 +275,14 @@ small {
         width: 75%;
     }
 
+    /* QR Code */
+    .large_only {
+        display: none;
+    }
+    .qr_code img {
+        width: 40%;
+    }
+
     /* Footer on all pages */
     #footer p {
         font-size: 150%;
@@ -334,6 +345,11 @@ small {
     /* Shared component holding content on most pages (except main landing page) */
     .container {
         margin-top: 20%;
+    }
+
+    /* QR Code */
+    .large_only {
+        display: none;
     }
 
     /* Footer on all pages */
@@ -400,6 +416,11 @@ small {
         width: 70%;
     }
 
+    /* QR Code */
+    .small_only {
+        display: none;
+    }
+
 }
 
 /* Very large screen devices (>1200px width) */
@@ -442,6 +463,11 @@ small {
     }
     #prepare .child {
         width: 30%;
+    }
+
+    /* QR Code */
+    .small_only {
+        display: none;
     }
 
 }
