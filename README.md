@@ -28,3 +28,29 @@ As our team and our app are very new, we welcome any comments and have a contact
   water levels in Lake Ontario were to rise to "doomsday" levels. 
 - Check out our story map to understand the intricacies of our model: 
 
+**Data Sources and Citations**
+*Toronto Data*
+- Flood Plain polygons were obtained from Esri open data: 
+https://trca-camaps.opendata.arcgis.com/datasets/camaps::floodplainmappingindex-1/about
+
+- Road, neighborhood and hospital shapefiles were downloaded from the Toronto open data portal.
+https://open.toronto.ca/
+
+*Canada-wide Data*
+Precipitation deviations, current and live flooding footprints were obtained from the Government of Canada’s open data portal.
+https://open.canada.ca/en/open-data
+
+*Lac St-Pierre Data*
+
+Lac St-Pierre flood extent polygons were found at the University of Colorado’s flood observatory portal.
+http://floodobservatory.colorado.edu/
+
+*Reports*
+Reports used for research purposes in our app were collected from various sources.
+
+Resilient Toronto. City of Toronto. Summary of the Flood Resilient Toronto Project. 1-13 (2019). https://www.toronto.ca/wp-content/uploads/2019/05/8e9a-2019-04-25_Flood-Resilient-Report.pdf 
+
+Kreibich, H., Bubeck, P., Van Vliet, M. et al. A review of damage-reducing measures to manage fluvial flood risks in a changing climate. Mitig Adapt Strateg Glob Change 20, 967–989 (2015). https://doi.org/10.1007/s11027-014-9629-5
+
+Joanna Eyquem P.Geo. ENV SP. CWEM. CEnv. Rising Seas and Shifting Sands. 1-95 (2021) http://www.intactcentre.ca/wp-content/uploads/2021/12/UoW_ICCA_2021_12_Coastal_Protection_GreyNbS.pdf
+
