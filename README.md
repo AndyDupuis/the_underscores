@@ -19,6 +19,12 @@ While our datasets are not yet completely comprehensive, with the MVP of our Flo
 As our team and our app are very new, we welcome any comments and have a contact page dedicated to receiving feedback from our users. 
 
 **How the FloodRouteFinder App Works** 
-- add some bullet points, one for each main feature in the app
-- add the link to the storymap
-- 
+- Choose which layers you want active on teh web map.
+- Identify the flood plains on the map to see whether you live in one. Alternatively, type your address into the search bar to zoom in.
+- Create bookmarks within the app to find positions of interest quickly.
+- Indentify the best paths calculated by our model to transport people to safety.
+- Check the infrastructure that would lead you to safety (i.e. roads, hospitals).
+- Additionally, toggle on the Elevation contour layer and pick the swipe widget to see an elevation model of the city and where the city would be likely to flood the most if 
+  water levels in Lake Ontario were to rise to "doomsday" levels. 
+- Check out our story map to understand the intricacies of our model: 
+
