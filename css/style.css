@@ -300,7 +300,6 @@ small {
     }
     #prepare .child {
         width: 80%;
-        height: 70vh;
     }
 
     /* Shared component holding content on most pages (except main landing page) */
@@ -360,9 +359,6 @@ small {
     #prepare .child_type_2 img {
         height: 300px;
     }
-    #prepare .child {
-        height: 65vh;
-    }
     #prepare .child_type_1 {
         width: 45%;
     }
@@ -412,7 +408,6 @@ small {
     }
     #prepare .child {
         width: 30%;
-        height: 60vh;
     }
 
 }
