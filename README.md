@@ -29,7 +29,9 @@ As our team and our app are very new, we welcome any comments and have a contact
 - Check out our story map to understand the intricacies of our model: 
 
 **Data Sources and Citations**
+
 *Toronto Data*
+
 - Flood Plain polygons were obtained from Esri open data: 
 https://trca-camaps.opendata.arcgis.com/datasets/camaps::floodplainmappingindex-1/about
 
@@ -37,6 +39,7 @@ https://trca-camaps.opendata.arcgis.com/datasets/camaps::floodplainmappingindex-
 https://open.toronto.ca/
 
 *Canada-wide Data*
+
 Precipitation deviations, current and live flooding footprints were obtained from the Government of Canada’s open data portal.
 https://open.canada.ca/en/open-data
 
@@ -45,7 +48,13 @@ https://open.canada.ca/en/open-data
 Lac St-Pierre flood extent polygons were found at the University of Colorado’s flood observatory portal.
 http://floodobservatory.colorado.edu/
 
+*Digital Elevation Model*
+
+The DEM used in our model was obtained from the Ontario Ministry of natural Resources and Forestry.
+https://www.arcgis.com/home/item.html?id=b1ec60624b2f4f67bb9c4fb536e6b2fd
+
 *Reports*
+
 Reports used for research purposes in our app were collected from various sources.
 
 Resilient Toronto. City of Toronto. Summary of the Flood Resilient Toronto Project. 1-13 (2019). https://www.toronto.ca/wp-content/uploads/2019/05/8e9a-2019-04-25_Flood-Resilient-Report.pdf 
