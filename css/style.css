@@ -149,6 +149,15 @@ h1, h2 {
     width: 20%;
 }
 
+/*Video (on index.html)*/
+.video {
+    background-color: white;
+    border-radius: 25px;
+    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+}
 /* About Us section */
 #about_us {
     margin: 2%;
