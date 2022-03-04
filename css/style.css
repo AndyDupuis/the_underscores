@@ -98,13 +98,13 @@ h1, h2 {
 .jumbotron h1 {
     color: #97CADB;
 }
-.jumbotron .btn, .jumbotron .btn:after {
+.btn, .btn:after {
     background-color: #97CADB;
     color: #001B48;
     padding: 2%;
     border: 1px solid #001B48;
 }
-.jumbotron .btn:hover {
+.btn:hover {
     background-color: #001B48;
     color: #97CADB;
     border: 1px solid #97CADB;
@@ -127,6 +127,13 @@ h1, h2 {
 #demo_img {
     background: url('../img/map_app_demo.jpg') no-repeat center;
     background-size: contain;
+}
+#demo_video_link {
+    width: 50%;
+    padding: 5%;
+}
+#demo_video_link h1 {
+    font-size: 150%;
 }
 
 /* QR Code Section (on index.html and app.html) */
@@ -216,6 +223,9 @@ small {
     bottom: 0;
     margin-bottom: -15px;
 }
+#main_app .text_link a:hover {
+    color: #97CADB !important;
+}
 
 
 /* Footer on all pages */
@@ -289,7 +299,7 @@ small {
         display: none;
     }
     .qr_code img {
-        width: 40%;
+        width: 40% !important;
     }
 
     /* Footer on all pages */
