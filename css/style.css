@@ -129,6 +129,23 @@ h1, h2 {
     background-size: contain;
 }
 
+/* QR Code Section (on index.html and app.html) */
+#qr_code_main {
+    background-color: white;
+    border-radius: 25px;
+    margin: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 5%;
+}
+#qr_code_main img {
+    width: 25%;
+}
+
+#main_app img {
+    width: 20%;
+}
+
 /* About Us section */
 #about_us {
     margin: 2%;
