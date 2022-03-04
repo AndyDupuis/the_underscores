@@ -57,7 +57,7 @@ h1, h2 {
 }
 
 .transparent_background {
-    background-color: rgba(0, 27, 72, 0.829) !important;
+    background-color: rgba(0, 0, 0, 0.829) !important;
     color: #97CADB !important;
     border-radius: 10px;
 }
@@ -145,6 +145,7 @@ h1, h2 {
 }
 .about_us_card {
     margin: auto;
+    border: none !important;
 }
 
 /* Be Prepared Page */
@@ -237,7 +238,7 @@ small {
         display: none;
     }
     .container {
-        margin-top: 25%;
+        margin-top: 35%;
     }
 
     /* About Us section */
@@ -246,6 +247,11 @@ small {
     }
     .card-body p, .card-body h1 {
         font-size: 100%;
+    }
+
+    /* High Risk Areas Page */
+    #risk img {
+        width: 75%;
     }
 
     /* Footer on all pages */
@@ -300,6 +306,11 @@ small {
     }
     #prepare .child {
         width: 80%;
+    }
+
+    /* High Risk Areas Page */
+    #risk img {
+        width: 75%;
     }
 
     /* Shared component holding content on most pages (except main landing page) */
@@ -364,6 +375,11 @@ small {
     }
     #prepare .child_type_2 {
         width: 80%
+    }
+
+    /* High Risk Areas Page */
+    #risk img {
+        width: 70%;
     }
 
 }
