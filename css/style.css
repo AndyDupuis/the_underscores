@@ -131,6 +131,8 @@ h1, h2 {
 #demo_video_link {
     width: 50%;
     padding: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 #demo_video_link h1 {
     font-size: 150%;
@@ -143,6 +145,7 @@ h1, h2 {
     margin: 5%;
     margin-left: 15%;
     margin-right: 15%;
+    margin-bottom: 10%;
     padding: 5%;
 }
 .qr_code img {
